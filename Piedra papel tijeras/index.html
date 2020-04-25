@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <title>Pagina principal</title>
+    <link rel="icon" href="media/favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="utf-8">
+    <!-- Etiquetas opcionales -->
+    <meta name="author" content="Yoni">
+    <meta name="description" content="De que va esta pagina">
+    <meta name="keywords" content="palabra clave 1, palabra clave 2,etc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Set-Cookie" content="name=data; path=path; expires= "> -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Piedra Papel Tijeras</h1>
+    </header>
+
+    <div class="marcador">
+      <div id="cartel-humano" class="cartel">Humano</div>
+      <div id="cartel-maquina" class="cartel">Maquina</div>
+      <span id="puntuacion_humano">0</span><span>:</span><span id="puntuacion_maquina">0</span>
+    </div>
+
+    <div class="anuncio">
+      <p>Piedra rompe tijeras. Tu pierdes</p>
+    </div>
+
+    <div class="elecciones">
+      <div id="piedra" class="eleccion">
+        <img src="media/piedra.png" alt="">
+      </div>
+      <div id="papel" class="eleccion">
+        <img src="media/papel.png" alt="">
+      </div>
+      <div id="tijeras" class="eleccion">
+        <img src="media/tijeras.png" alt="">
+      </div>
+    </div>
+
+    <div class="texto_ordenes">Elige una opción</div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
