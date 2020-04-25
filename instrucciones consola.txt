@@ -1,0 +1,13 @@
+git clone
+
+git diff
+
+git status
+
+git add .
+
+git commit -m "explicacion"
+
+git push
+
+
