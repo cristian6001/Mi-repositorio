@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="estilos.css">
     <meta charset="utf-8">
     <!-- Etiquetas opcionales -->
-    <meta name="author" content="Yoni">
-    <meta name="description" content="De que va esta pagina">
-    <meta name="keywords" content="palabra clave 1, palabra clave 2,etc">
+    <meta name="author" content="Cristian6001">
+    <meta name="description" content="divertido juego on-line">
+    <meta name="keywords" content="juego, juegos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<meta http-equiv="cache-control" content="no-cache"/>
     <meta http-equiv="cache-control" content="no-cache" />
@@ -20,29 +20,59 @@
       <h1>Piedra Papel Tijeras</h1>
     </header>
 
-    <div class="marcador">
-      <div id="cartel-humano" class="cartel">Humano</div>
-      <div id="cartel-maquina" class="cartel">Maquina</div>
-      <span id="puntuacion_humano">0</span><span>:</span><span id="puntuacion_maquina">0</span>
+    <div class="bloque_marcador">
+
+      <div class="eleccion_h" id="eleccion_h_pi">
+        <img src="media/piedra.png" alt="">
+      </div>
+      <div class="eleccion_h" id="eleccion_h_pa">
+        <img src="media/papel.png" alt="">
+      </div>
+      <div class="eleccion_h" id="eleccion_h_ti">
+        <img src="media/tijeras.png" alt="">
+      </div>
+
+      <div class="marcador">
+        <div class="cartel" id="cartel-humano">Humano</div>
+        <div class="cartel" id="cartel-maquina">Maquina</div>
+        <span id="puntuacion_humano">0</span><span>:</span><span id="puntuacion_maquina">0</span>
+      </div>
+
+        <div class="eleccion_m" id="eleccion_m_pi">
+          <img src="media/piedra.png" alt="">
+        </div>
+        <div class="eleccion_m" id="eleccion_m_pa">
+          <img src="media/papel.png" alt="">
+        </div>
+        <div class="eleccion_m" id="eleccion_m_ti">
+          <img src="media/tijeras.png" alt="">
+        </div>
+
+</div>
+    <div class="anuncio">
+      <p id="p_uno">Bienvenido</p>
     </div>
 
     <div class="anuncio">
-      <p>Piedra rompe tijeras. Tu pierdes</p>
+      <p id="p_dos">Haz un movimiento</p>
     </div>
 
     <div class="elecciones">
-      <div id="piedra" class="eleccion">
+      <div class="eleccion" id="piedra">
         <img src="media/piedra.png" alt="">
       </div>
-      <div id="papel" class="eleccion">
+      <div class="eleccion" id="papel">
         <img src="media/papel.png" alt="">
       </div>
-      <div id="tijeras" class="eleccion">
+      <div class="eleccion" id="tijeras" >
         <img src="media/tijeras.png" alt="">
       </div>
     </div>
 
-    <div class="texto_ordenes">Elige una opción</div>
+    <div class="nivel">
+      <p id="p_nivel">Nivel 1</p>
+    </div>
+
     <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
