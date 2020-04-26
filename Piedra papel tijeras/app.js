@@ -45,12 +45,12 @@ function juego(h,m) {
     eleccion_m_ti.classList.add('aura-verde');
     eleccion_h_pa.classList.add('aura-roja');
   }
-  else if (h === 'ti' && m === 'pa' ) {
+  else if (h === 'ti' && m === 'pi' ) {
     p_uno.innerHTML = 'Tijeras cortan Papel';
     p_dos.innerHTML = 'Perdiste';
     conVicMaq++;
     puntuacion_maquina.innerHTML = conVicMaq;
-    eleccion_m_pa.classList.add('aura-verde');
+    eleccion_m_pi.classList.add('aura-verde');
     eleccion_h_ti.classList.add('aura-roja');
   }
   else {
