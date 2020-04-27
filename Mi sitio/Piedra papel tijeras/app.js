@@ -46,7 +46,7 @@ function juego(h,m) {
     eleccion_h_pa.classList.add('aura-roja');
   }
   else if (h === 'ti' && m === 'pi' ) {
-    p_uno.innerHTML = 'Tijeras cortan Papel';
+    p_uno.innerHTML = 'Piedra rompe Tijeras';
     p_dos.innerHTML = 'Perdiste';
     conVicMaq++;
     puntuacion_maquina.innerHTML = conVicMaq;
